@@ -9,7 +9,7 @@ console.log("Entering my loop:");
 
 for (let fruit of fruitArr) {
   console.log(fruit);
-  console.log(stringSeparator);
+  console.log(stringSeparator); // globally scoped variable accessed inside the loop scope
 }
 
 console.log("Exited my loop!")
