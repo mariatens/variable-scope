@@ -15,13 +15,13 @@ function printScopeExample() {
   }
 
   console.log("my scope is", scope);
-  console.log(inLoopIteration);
-  console.log(inFunction);
+  //console.log(inLoopIteration); //I think this is the error because it's not defined in a global scope
+  console.log(inFunction); 
   console.log(inGlobal);
 }
 
 printScopeExample();
 console.log("my scope is", scope);
-console.log(inLoopIteration);
-console.log(inFunction);
+//console.log(inLoopIteration);
+//console.log(inFunction);
 console.log(inGlobal);
