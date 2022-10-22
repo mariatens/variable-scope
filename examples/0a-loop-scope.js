@@ -13,7 +13,9 @@ for (let word of words) {
 console.log('Loop exited!')
 
 // below will cause errors - comment out to fix
-console.log("outside a loop, can I access word?", word);
-console.log("outside a loop, can I access capitalisedWord?", capitalisedWord);
+//console.log("outside a loop, can I access word?", word); //no
+//console.log("outside a loop, can I access capitalisedWord?", capitalisedWord); //no  
+console.log(myString)
+console.log(words)
 
 console.log("Reached the end of my programme!");
